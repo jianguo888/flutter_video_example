@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:video_ii_example/page/basics_page.dart';
 import 'package:video_ii_example/page/orientation_page.dart';
 
+//你手机里的图片地址
 final urlLandscapeVideo =
     '/data/user/0/com.example.video_ii_example/cache/file_picker/xg_0_20211121113703.mp4';
 final urlPortraitVideo =
