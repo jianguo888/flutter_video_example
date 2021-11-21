@@ -3,7 +3,7 @@ import 'package:video_ii_example/page/basics_page.dart';
 import 'package:video_ii_example/page/orientation_page.dart';
 
 final urlLandscapeVideo =
-    'https://assets.mixkit.co/videos/preview/mixkit-group-of-friends-partying-happily-4640-large.mp4';
+    '/data/user/0/com.example.video_ii_example/cache/file_picker/xg_0_20211121113703.mp4';
 final urlPortraitVideo =
     'https://assets.mixkit.co/videos/preview/mixkit-a-girl-blowing-a-bubble-gum-at-an-amusement-park-1226-large.mp4';
 final urlYoutubeVideo = 'https://youtube.com/watch?v=HSAa9yi0OMA';
@@ -50,11 +50,11 @@ class _MainPageState extends State<MainPage> {
       items: [
         BottomNavigationBarItem(
           icon: Text('VideoPlayer', style: style),
-          title: Text('Basics'),
+          label: 'Basics',
         ),
         BottomNavigationBarItem(
           icon: Text('VideoPlayer', style: style),
-          title: Text('Orientation'),
+          label: 'Orientation',
         ),
       ],
       onTap: (int index) => setState(() => this.index = index),

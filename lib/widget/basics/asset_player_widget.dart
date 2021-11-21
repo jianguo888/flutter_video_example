@@ -8,7 +8,7 @@ class AssetPlayerWidget extends StatefulWidget {
 }
 
 class _AssetPlayerWidgetState extends State<AssetPlayerWidget> {
-  final asset = 'assets/video.mp4';
+  final asset = 'assets/boy.mp4';
   VideoPlayerController controller;
 
   @override

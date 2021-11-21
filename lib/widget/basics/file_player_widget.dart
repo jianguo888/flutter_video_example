@@ -13,7 +13,7 @@ class FilePlayerWidget extends StatefulWidget {
 
 class _FilePlayerWidgetState extends State<FilePlayerWidget> {
   final File file = File(
-      '/data/user/0/com.example.video_example/cache/file_picker/big_buck_bunny_720p_10mb.mp4');
+      '/data/user/0/com.example.video_ii_example/cache/file_picker/xg_0_20211121113703.mp4');
   VideoPlayerController controller;
 
   @override
