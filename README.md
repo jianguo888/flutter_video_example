@@ -9,9 +9,13 @@
 
 这是页面1的效果
 
-![image-20211121124931951](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20211121124931951.png)
+![image-20211121130931359](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20211121130931359.png)
 
 
+
+![image-20211121130950242](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20211121130950242.png)
+
+![image-20211121131016188](https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20211121131016188.png)
 
 用到的插件有：
 
