@@ -5,8 +5,8 @@ import 'package:video_ii_example/page/orientation_page.dart';
 final urlLandscapeVideo =
     '/data/user/0/com.example.video_ii_example/cache/file_picker/xg_0_20211121113703.mp4';
 final urlPortraitVideo =
-    'https://assets.mixkit.co/videos/preview/mixkit-a-girl-blowing-a-bubble-gum-at-an-amusement-park-1226-large.mp4';
-final urlYoutubeVideo = 'https://youtube.com/watch?v=HSAa9yi0OMA';
+    'https://www.bilibili.com/video/BV1x34y1Z7ze?share_source=copy_web';
+final urlYoutubeVideo = 'https://www.w3school.com.cn/example/html5/mov_bbb.mp4';
 
 void main() => runApp(MyApp());
 
@@ -50,11 +50,11 @@ class _MainPageState extends State<MainPage> {
       items: [
         BottomNavigationBarItem(
           icon: Text('VideoPlayer', style: style),
-          label: 'Basics',
+          label: '基础',
         ),
         BottomNavigationBarItem(
           icon: Text('VideoPlayer', style: style),
-          label: 'Orientation',
+          label: '方向',
         ),
       ],
       onTap: (int index) => setState(() => this.index = index),

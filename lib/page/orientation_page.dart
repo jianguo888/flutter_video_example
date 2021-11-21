@@ -19,8 +19,8 @@ class OrientationPage extends StatelessWidget {
         },
         tabs: [
           Tab(icon: Icon(Icons.screen_lock_portrait), text: 'Portrait'),
-          Tab(icon: Icon(Icons.screen_lock_landscape), text: 'Landscape'),
-          Tab(icon: Icon(Icons.screen_rotation), text: 'Both'),
+          Tab(icon: Icon(Icons.screen_lock_landscape), text: '全屏'),
+          Tab(icon: Icon(Icons.screen_rotation), text: '其他'),
         ],
         children: [
           buildPortrait(),
@@ -37,7 +37,7 @@ class OrientationPage extends StatelessWidget {
       );
 
   Widget buildPortraitAndLandscape(BuildContext context) => buildButton(
-        text: 'Back To Both',
+        text: '返回其他',
         onClicked: () => goToPortraitAndLandscape(context),
       );
 

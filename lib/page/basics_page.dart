@@ -9,7 +9,7 @@ class BasicsPage extends StatelessWidget {
   Widget build(BuildContext context) => TabBarWidget(
         tabs: [
           Tab(icon: Icon(Icons.file_copy), text: 'Asset'),
-          Tab(icon: Icon(Icons.attach_file), text: 'File'),
+          Tab(icon: Icon(Icons.filter_sharp), text: 'File'),
           Tab(icon: Icon(Icons.ondemand_video_outlined), text: 'Network'),
         ],
         children: [
